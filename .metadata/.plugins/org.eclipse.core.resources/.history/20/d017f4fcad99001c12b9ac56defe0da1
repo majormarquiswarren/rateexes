@@ -1,0 +1,7 @@
+package rateexes.webapi.Data.Enums;
+
+public enum Genders {
+	Male,
+	Female,
+	PreferNotToSay
+}

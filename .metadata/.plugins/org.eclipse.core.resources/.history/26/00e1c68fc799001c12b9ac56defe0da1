@@ -1,0 +1,8 @@
+spring.datasource.url = jdbc:mysql://localhost:3306/rateexes
+spring.datasource.username = root
+spring.jpa.hibernate.ddl-auto = create
+spring.jpa.properties.hibernate = org.hibernate.dialect.MySQL5Dialect
+spring.jpa.properties.javax.persistence.schema-generation.scripts.action=create
+spring.jpa.properties.javax.persistence.schema-generation.scripts.create-target=create.sql
+spring.jpa.properties.javax.persistence.schema-generation.scripts.create-source=metadata
+spring.jpa.show-sql=true

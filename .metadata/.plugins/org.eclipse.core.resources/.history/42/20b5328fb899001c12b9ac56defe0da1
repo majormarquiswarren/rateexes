@@ -1,0 +1,5 @@
+package rateexes.webapi.Data.Repositories.Contracts;
+
+import rateexes.webapi.Data.Entities.User;
+
+public interface IUserRepository extends IBaseRepository<User> {

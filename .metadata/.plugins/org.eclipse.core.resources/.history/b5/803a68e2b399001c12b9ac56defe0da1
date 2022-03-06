@@ -1,0 +1,5 @@
+package rateexes.webapi.Data.Repositories;
+
+public class BaseRepository {
+
+}

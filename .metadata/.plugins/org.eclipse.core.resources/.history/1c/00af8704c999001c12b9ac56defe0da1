@@ -1,0 +1,5 @@
+package rateexes.webapi.Data.Entities;
+
+public class BaseClass {
+
+}

@@ -1,0 +1,9 @@
+package rateexes.webapi.Data.Repositories.Contracts;
+
+import java.util.ArrayList;
+
+import rateexes.webapi.Data.Entities.User;
+
+public interface IUserRepository extends IBaseRepository<User> {
+	ArrayList<User> getUsersByEmail(String email);
+}

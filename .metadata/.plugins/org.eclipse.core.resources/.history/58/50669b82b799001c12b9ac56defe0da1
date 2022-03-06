@@ -1,0 +1,6 @@
+package rateexes.webapi.Data.Repositories;
+import rateexes.webapi.Data.Repositories.Contracts.IUserRepository;
+
+public class UserRepository implements IUserRepository {
+
+}

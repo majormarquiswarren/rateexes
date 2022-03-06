@@ -1,0 +1,5 @@
+package rateexes.webapi.Api.Controllers;
+
+public class UserController {
+
+}

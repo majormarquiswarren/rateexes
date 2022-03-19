@@ -1,0 +1,12 @@
+package rateexes.webapi.Data.Repositories.Contracts;
+
+import java.io.Serializable;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface IBaseRepository<TEntity extends Serializable> extends CrudRepository<TEntity, Long> 
+{
+	
+}

@@ -1,0 +1,11 @@
+package rateexes.webapi.Data.Repositories;
+import java.util.ArrayList;
+import java.util.Optional;
+
+import rateexes.webapi.Data.Entities.User;
+import rateexes.webapi.Data.Repositories.Contracts.IUserRepository;
+
+public class UserRepository extends BaseRepository<User> implements IUserRepository 
+{
+
+}
